@@ -1,4 +1,4 @@
-#Cocopan Actionable Insights Dashboard
+# Cocopan Actionable Insights Dashboard
 A full-stack web application designed to provide data-driven marketing insights for the bakery brand, Cocopan. This dashboard transforms raw sales data into an interactive tool for customer segmentation, strategic planning, and real-time social sentiment analysis.
 
 ##Key Features
@@ -8,7 +8,7 @@ A full-stack web application designed to provide data-driven marketing insights 
 - AI-Powered Strategic Recommendations: Utilizes the Google Gemini API to generate dynamic, data-driven marketing strategies. The application sends current customer segment data to the AI, which returns tailored recommendations for retention and growth.
 - Secure Authentication & History: Includes a secure login system and allows users to save and compare different analysis sessions over time.
 
-##Technology Stack
+## Technology Stack
 - Frontend: HTML, TailwindCSS, Vanilla JavaScript
 - Backend: Node.js with Express.js
 - Database: SQLite for user and analysis history storage
@@ -20,7 +20,7 @@ A full-stack web application designed to provide data-driven marketing insights 
   - bcrypt.js: For password hashing.
   - jsonwebtoken: For managing user sessions.
 
-##Setup and Installation
+## Setup and Installation
 1. Clone the repository:
 
 git clone https://github.com/your-username/cocopan-dashboard.git
