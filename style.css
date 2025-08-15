@@ -1,0 +1,112 @@
+/*
+ * STYLE.CSS (Final Cocopan Theme)
+ * A complete visual overhaul to match the Cocopan brand aesthetic.
+ */
+
+:root {
+    /* Light Mode - Inspired by Cocopan's warm, friendly branding */
+    --bg-color: 255 251 249;          /* A very light, warm off-white (rose-50) */
+    --card-bg: 255 255 255;          /* Clean White */
+    --text-primary: 68 64 60;        /* stone-700, for strong but not harsh contrast */
+    --text-secondary: 120 113 108;   /* stone-500 */
+    --border-color: 245 245 244;     /* stone-100 */
+    --accent-primary: 213 99 43;     /* A rich, warm orange inspired by the logo */
+    --accent-primary-hover: 194 85 33;/* A slightly darker orange for hover */
+    --accent-secondary: 22 163 74;   /* A friendly green (green-600) */
+}
+
+html.dark {
+    /* Dark Mode - A complementary dark theme that feels premium (cos we love cocopan)*/
+    --bg-color: 28 25 23;            /* stone-900 */
+    --card-bg: 41 37 36;             /* stone-800 */
+    --text-primary: 245 245 244;     /* stone-100 */
+    --text-secondary: 168 162 158;   /* stone-400 */
+    --border-color: 68 64 60;        /* stone-700 */
+    --accent-primary: 239 122 66;    /* Brighter orange for dark mode */
+    --accent-primary-hover: 213 99 43;/* Lighter orange for hover */
+    --accent-secondary: 34 197 94;   /* Brighter green for dark mode */
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif; 
+    background-color: rgb(var(--bg-color));
+    color: rgb(var(--text-primary));
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Primary button style using the brand color */
+.btn-primary {
+    background-color: rgb(var(--accent-primary));
+    color: white;
+    font-weight: 700;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.06);
+}
+
+.btn-primary:hover {
+    background-color: rgb(var(--accent-primary-hover));
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
+
+/* Secondary button style for less prominent actions */
+.btn-secondary {
+    background-color: rgb(var(--card-bg));
+    color: rgb(var(--text-primary));
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid rgb(var(--border-color));
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+}
+
+.btn-secondary:hover {
+    background-color: rgba(var(--text-secondary), 0.05);
+    border-color: rgba(var(--text-secondary), 0.5);
+}
+
+/* Card styling for all main content blocks */
+.kpi-card, .insight-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    background-color: rgb(var(--card-bg));
+    border: 1px solid rgb(var(--border-color));
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.03), 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+}
+
+.dark .kpi-card, .dark .insight-card {
+     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.kpi-card:hover, .insight-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+}
+
+.dark .kpi-card:hover, .dark .insight-card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for comparison percentage changes */
+.comparison-up {
+    color: rgb(var(--accent-secondary));
+}
+
+.comparison-down {
+    color: #EF4444; /* Red 500 */
+}
+
+/* Custom classes for direct use in the html index */
+.bg-brand-bg { background-color: rgb(var(--bg-color)); }
+.bg-brand-card { background-color: rgb(var(--card-bg)); }
+.text-brand-primary { color: rgb(var(--accent-primary)); }
+.text-brand-text_primary { color: rgb(var(--text-primary)); }
+.text-brand-text_secondary { color: rgb(var(--text-secondary)); }
+.border-brand-border { border-color: rgb(var(--border-color)); }
+.hover\:text-brand-primary_hover:hover { color: rgb(var(--accent-primary-hover)); }
+.focus\:ring-brand-primary:focus { --tw-ring-color: rgb(var(--accent-primary)); }
+.focus\:border-brand-primary:focus { border-color: rgb(var(--accent-primary)); }

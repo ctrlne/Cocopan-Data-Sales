@@ -1,0 +1,24 @@
+{
+  "name": "cocopan-dashboard",
+  "version": "1.0.0",
+  "description": "Backend server for the Cocopan Actionable Insights Dashboard.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init-db": "node -e \"require('./database.js').initDb()\""
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.2",
+    "fb": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "papaparse": "^5.5.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

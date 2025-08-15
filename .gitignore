@@ -1,0 +1,11 @@
+# Dependencies
+/node_modules
+
+# Environment Variables - IMPORTANT!
+.env
+
+# Database File
+cocopan.db
+
+# macOS folder
+.DS_Store
