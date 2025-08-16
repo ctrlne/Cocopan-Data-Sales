@@ -34,7 +34,7 @@ npm install
 
 - Create a .env file in the root of the project.
 
-- Add the following keys, replacing the placeholder values with your actual API keys and tokens:
+- Add the following keys, replacing the placeholder values with your actual API keys and tokens for generating AI Insights and a Customer Sentiment Analysis Overview (Facebook):
 
 JWT_SECRET=your_super_secret_key
 GEMINI_API_KEY=your_gemini_api_key_here
