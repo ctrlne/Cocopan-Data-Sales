@@ -36,12 +36,12 @@ npm install
 
 - Add the following keys, replacing the placeholder values with your actual API keys and tokens for generating AI Insights and a Customer Sentiment Analysis Overview (Facebook):
 
-JWT_SECRET=your_super_secret_key
-GEMINI_API_KEY=your_gemini_api_key_here
-FACEBOOK_PAGE_ACCESS_TOKEN=your_facebook_page_access_token_here
+JWT_SECRET=your-secret-key
+GEMINI_API_KEY=your-gemini-api-key
+FACEBOOK_PAGE_ACCESS_TOKEN=your-fb-page-access-token
 
 4. Run the server:
 
 npm start
 
-5. Open a browser and navigate to http://localhost:3000.
+5. Open a browser and navigate to http://localhost:3000 from your terminal.
