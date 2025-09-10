@@ -45,3 +45,7 @@ npm install
 npm start
 
 5. Open a browser and navigate to http://localhost:3000 from your terminal.
+
+       ```python
+    def hello_world():
+        print("Hello, GitHub README!")
