@@ -25,7 +25,7 @@ A full-stack web application designed to provide data-driven marketing insights 
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/cocopan-dashboard.git
+git clone https://github.com/ctrlne/Cocopan-Data-Sales.git
 cd cocopan-dashboard
 ```
 
