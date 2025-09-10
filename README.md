@@ -1,4 +1,4 @@
-# Cocopan Actionable Insights Dashboard
+# Cocopan Actionable Insights Dashboard https://cocopan-data-sales.onrender.com
 A full-stack web application designed to provide data-driven marketing insights for the bakery brand, Cocopan. This dashboard transforms raw sales data into an interactive tool for customer segmentation, strategic planning, and real-time social sentiment analysis.
 
 ## Key Features
