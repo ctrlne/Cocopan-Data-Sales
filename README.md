@@ -23,8 +23,10 @@ A full-stack web application designed to provide data-driven marketing insights 
 ## Setup and Installation
 1. Clone the repository:
 
+```
 git clone https://github.com/your-username/cocopan-dashboard.git
 cd cocopan-dashboard
+```
 
 2. Install dependencies:
 
@@ -37,14 +39,14 @@ npm install
 - Add the following keys, replacing the placeholder values with your actual API keys and tokens for generating AI Insights and a Customer Sentiment Analysis Overview (Facebook):
 
 ```
-`JWT_SECRET=your-secret-key`
-`GEMINI_API_KEY=your-gemini-api-key`
-`FACEBOOK_PAGE_ACCESS_TOKEN=your-fb-page-access-token`
+JWT_SECRET=your-secret-key
+GEMINI_API_KEY=your-gemini-api-key
+FACEBOOK_PAGE_ACCESS_TOKEN=your-fb-page-access-token
 ```
 
 4. Run the server:
 
-npm start
+`npm start`
 
 5. Open a browser and navigate to http://localhost:3000 from your terminal.
 
