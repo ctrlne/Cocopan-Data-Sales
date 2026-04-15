@@ -1,5 +1,5 @@
 # Cocopan Actionable Insights Dashboard 
-A full-stack web application designed to provide data-driven marketing insights for the bakery brand, Cocopan. This dashboard transforms raw sales data into an interactive tool for customer segmentation, strategic planning, and real-time social sentiment analysis.
+A full-stack web application designed to provide data-driven marketing insights for the bakery brand, Cocopan. This dashboard transforms raw sales data into an interactive tool for customer segmentation, strategic planning, and real-time social sentiment analysis. Take note that this is a public structural repository and only provides the codebase foundation for privacy purposes.
 
 ## Key Features
 - RFM Customer Segmentation: Automatically processes uploaded CSV sales data to segment customers into actionable categories like "Champions," "Loyal Customers," and "At-Risk" based on Recency, Frequency, and Monetary (RFM) analysis.
